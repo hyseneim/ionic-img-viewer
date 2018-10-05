@@ -106,7 +106,7 @@ export class ImageViewerZoomGesture extends Gesture {
 	}
 
 	onDoubleTap(event) {
-		this.component.isZoomed = !this.component.isZoomed;
+		/*this.component.isZoomed = !this.component.isZoomed;
 		if (this.component.isZoomed) {
 			this.currentScale = 2;
 		} else {
@@ -117,7 +117,7 @@ export class ImageViewerZoomGesture extends Gesture {
 		}
 
 		this.adjustScale = this.currentScale;
-		this.setImageContainerTransform();
+		this.setImageContainerTransform();*/
 	}
 
 	setImageContainerTransform() {
