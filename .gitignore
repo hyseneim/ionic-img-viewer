@@ -19,6 +19,6 @@ Thumbs.db
 !ngc-build.js
 
 # Ignored folders
-dist
+#dist
 aot
 .tmp
